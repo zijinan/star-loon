@@ -1639,25 +1639,25 @@
       "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
       "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
       "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
-      "fetched_from": "https://raw.githubusercontent.com/zmjde/loon-plugins/main/JS/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
-      "note": "kelee.one blocked; public GitHub copy of this file",
+      "fetched_from": "https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.request.js",
+      "note": "kelee.one blocked; upstream author Maasea original (2026-07 build)",
       "kinds": [
         "script"
       ],
-      "sha256": "20f4ab031620b950f198d741eb288a891196fd538f129ea65c926370447f2477",
-      "size": 42919
+      "sha256": "587afed52875e97510cd7099146de2e68945372bee72414243db40fcd3db3eda",
+      "size": 44241
     },
     {
       "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
       "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
       "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
-      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_remove_ads_response.js",
-      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "fetched_from": "https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.response.js",
+      "note": "kelee.one blocked; upstream author Maasea original (2026-07 build)",
       "kinds": [
         "script"
       ],
-      "sha256": "2b31b446e1106c1c743ee7b7674132a71131e78ef4e742ab36d5b4519f4820ea",
-      "size": 123849
+      "sha256": "cb0b4d7a5a2d751b73ec27acab3c0c65dac9c8d6013759621753faa023cdb75b",
+      "size": 133192
     },
     {
       "original_url": "https://kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
