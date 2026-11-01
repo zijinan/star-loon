@@ -21,10 +21,10 @@ request if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/3\/8\.0\.86\/bplco
 request if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/3\/8\.0\.86\/bplapi\/banner\/getLocationBanners/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners/i then script("https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
-response if ${url} ~= /^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data/i then script("https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
-response if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList/i then script("https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
-response if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more/i then script("https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
+response if ${url} ~= /^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
+response if ${url} ~= /^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
+response if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
+response if ${url} ~= /^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js") with tag="移除虎扑广告", requires_body=true
  
 [MitM]
 hostname=games.mobileapi.hupu.com, fairy.mobileapi.hupu.com, bbs.mobileapi.hupu.com, goblin.hupu.com

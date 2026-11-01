@@ -19,13 +19,13 @@ request if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/advConf$/i
 request if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/user\/checkQTSheInsurance$/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList/i then script("https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除匹配卡横幅", requires_body=true
+response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除匹配卡横幅", requires_body=true
 
-response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home/i then script("https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除密友横幅", requires_body=true
+response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除密友横幅", requires_body=true
 
-response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$/i then script("https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除娱乐页面横幅和悬浮窗配置", requires_body=true
+response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除娱乐页面横幅和悬浮窗配置", requires_body=true
 
-response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$/i then script("https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除广场搜索填充词", requires_body=true
+response if ${url} ~= /^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js") with tag="移除广场搜索填充词", requires_body=true
 
 [MitM]
 hostname=api.chenlongtech.cn

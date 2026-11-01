@@ -16,7 +16,7 @@ cookie=input, "", tag=Cookie, desc=这里需要输入Cookie的值
 cron=input, "0 1 * * *", tag=定时参数, desc=这里需要输入符合CRON表达式的参数
 
 [Script]
-cron ${cron} then script("https://kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js", {${token}, ${cookie}}) with tag="Follow每日签到", timeout=120
+cron ${cron} then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js", {${token}, ${cookie}}) with tag="Follow每日签到", timeout=120
 
 [MitM]
 hostname=api.follow.is

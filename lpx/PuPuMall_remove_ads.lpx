@@ -15,12 +15,12 @@ request if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/account\/discount\/or
 request if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=100/i then reject(404)
 
 [Script]
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/recommendation\/interests\/products/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
-response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1/i then script("https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/recommendation\/interests\/products/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
+response if ${url} ~= /^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js") with tag="移除朴朴超市广告", requires_body=true
 
 [MitM]
 hostname=j1.pupuapi.com

@@ -19,9 +19,9 @@ MAX_RETRIES=input, "5", tag=失败重试次数, desc=仅允许填写阿拉伯数
 CRONEXP=input, "0 8 * * *", tag=定时参数, desc=这里需要输入符合CRON表达式的参数
 
 [Script]
-request if ${url} ~= /^https:\/\/moapi\.wps\.cn\/app\/ios\/v1\/app$/i then script("https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js") with enable=${CaptureCookie}, tag="捕获Cookie", requires_body=true
+request if ${url} ~= /^https:\/\/moapi\.wps\.cn\/app\/ios\/v1\/app$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js") with enable=${CaptureCookie}, tag="捕获Cookie", requires_body=true
 
-cron ${CRONEXP} then script("https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js", {${AK}, ${SK}, ${MAX_RETRIES}}) with tag="WPS每日签到", timeout=120
+cron ${CRONEXP} then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js", {${AK}, ${SK}, ${MAX_RETRIES}}) with tag="WPS每日签到", timeout=120
 
 [MitM]
 hostname=moapi.wps.cn

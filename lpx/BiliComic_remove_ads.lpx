@@ -24,8 +24,8 @@ request if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\
 request if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs/i then script("https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js") with tag="移除顶部标签", requires_body=true
-response if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf/i then script("https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js") with tag="精简我的页面", requires_body=true
+response if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js") with tag="移除顶部标签", requires_body=true
+response if ${url} ~= /^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js") with tag="精简我的页面", requires_body=true
 
 [MitM]
 hostname=manga.bilibili.com

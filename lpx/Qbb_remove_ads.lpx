@@ -30,9 +30,9 @@ request if ${url} ~= /^https:\/\/apimall\.qbb6\.com\/mall\/v\d\/goods\/count\?/i
 request if ${url} ~= /^https:\/\/apimall\.qbb6\.com\/mall\/homepage\/data\/get\/v\d$/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get\/v\d\?/i then script("https://kelee.one/Resource/JavaScript/Qbb/my.js") with tag="精简我的页面", requires_body=true
+response if ${url} ~= /^https:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get\/v\d\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Qbb/my.js") with tag="精简我的页面", requires_body=true
 
-response if ${url} ~= /^https:\/\/apipt\.qbb6\.com\/parenting\/pt\/homepage\/get\/v\d\?/i then script("https://kelee.one/Resource/JavaScript/Qbb/homepage.js") with tag="精简育儿页面", requires_body=true
+response if ${url} ~= /^https:\/\/apipt\.qbb6\.com\/parenting\/pt\/homepage\/get\/v\d\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Qbb/homepage.js") with tag="精简育儿页面", requires_body=true
 
 [MitM]
 hostname=api.qbb6.com, apicommunity.qbb6.com, apipt.qbb6.com, apiuser.qbb6.com, apimall.qbb6.com

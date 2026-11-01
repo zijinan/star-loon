@@ -11,6 +11,6 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-generic then script("https://kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js") with tag="入口落地查询", img_url="globe.asia.australia.system", timeout=10
-generic then script("https://kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js") with tag="地理位置查询", img_url="location.circle.system", timeout=10
-generic then script("https://kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js") with tag="节点解锁查询", img_url="play.circle.system", timeout=20
+generic then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js") with tag="入口落地查询", img_url="globe.asia.australia.system", timeout=10
+generic then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js") with tag="地理位置查询", img_url="location.circle.system", timeout=10
+generic then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js") with tag="节点解锁查询", img_url="play.circle.system", timeout=20

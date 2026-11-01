@@ -19,7 +19,7 @@ request if ${url} ~= /^https:\/\/energy\.xiaojukeji\.com\/lego\/api\/orderSprint
 
 request if ${url} ~= /^https:\/\/energy\.xiaojukeji\.com\/station-api\/search\/preWords$/i then reject_dict(200)
 
-response if ${url} ~= /^https:\/\/am\.didistatic\.com\/static\/am\/cf-terminal\/epower\/epower-thanos-app\/\d+\.\d+\.\d+\/pages\/people\/index\.js$/i then response.body.mock_file("text", "https://kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js", 200)
+response if ${url} ~= /^https:\/\/am\.didistatic\.com\/static\/am\/cf-terminal\/epower\/epower-thanos-app\/\d+\.\d+\.\d+\/pages\/people\/index\.js$/i then response.body.mock_file("text", "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js", 200)
 
 [MitM]
 hostname=energy.xiaojukeji.com, am.didistatic.com

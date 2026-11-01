@@ -69,7 +69,7 @@ response if ${url} ~= /^https:\/\/api\.pinduoduo\.com\/order\//i then response.j
 response if ${url} ~= /^https:\/\/api\.pinduoduo\.com\/api\/aristotle\/order_list_v4\?/i then response.json.jq(".orders |= map(.order_buttons |= map(del(.order_growth_tip)))")
 
 [Script]
-response if ${url} ~= /^https:\/\/m\.pinduoduo\.net\/mdkd\/package\?from_app_scan/i then script("https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js") with tag="移除扫码取件页面商品推荐及弹窗", requires_body=true
+response if ${url} ~= /^https:\/\/m\.pinduoduo\.net\/mdkd\/package\?from_app_scan/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js") with tag="移除扫码取件页面商品推荐及弹窗", requires_body=true
 
 [MitM]
 hostname=api.pinduoduo.com, m.pinduoduo.net

@@ -17,9 +17,9 @@ DOMAIN, sub-store.vercel.app, PROXY
 cron=input, "55 23 * * *", tag=定时参数, desc=这里需要输入符合CRON表达式的参数
 
 [Script]
-request if ${url} ~= /^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))/i then script("https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js") with tag="Sub-Store Core", timeout=120, requires_body=true
-request if ${url} ~= /^https?:\/\/sub\.store/i then script("https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js") with tag="Sub-Store Simple", timeout=120, requires_body=true
-cron ${cron} then script("https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js") with tag="Sub-Store Sync", timeout=120
+request if ${url} ~= /^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js") with tag="Sub-Store Core", timeout=120, requires_body=true
+request if ${url} ~= /^https?:\/\/sub\.store/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js") with tag="Sub-Store Simple", timeout=120, requires_body=true
+cron ${cron} then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js") with tag="Sub-Store Sync", timeout=120
 
 [MitM]
 hostname=sub.store

@@ -16,7 +16,7 @@ request if ${url} ~= /^https:\/\/m\.riskbird\.com\/prod-qbb-api\/user\/getBanner
 request if ${url} ~= /^https:\/\/m\.riskbird\.com\/prod-qbb-api\/searchHotEnt/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend/i then script("https://kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js") with tag="移除推荐老板", requires_body=true
+response if ${url} ~= /^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js") with tag="移除推荐老板", requires_body=true
 
 [MitM]
 hostname=m.riskbird.com

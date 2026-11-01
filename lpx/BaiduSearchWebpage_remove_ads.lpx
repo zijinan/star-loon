@@ -11,7 +11,7 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-response if ${url} ~= /^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})/i then script("https://kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js") with tag="移除百度搜索首页信息流广告", requires_body=true
+response if ${url} ~= /^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js") with tag="移除百度搜索首页信息流广告", requires_body=true
 
 [MitM]
 hostname=m.baidu.com, www.baidu.com

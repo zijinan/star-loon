@@ -1,0 +1,1930 @@
+{
+  "mirror_base": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/",
+  "count_mirrored": 154,
+  "count_left_external": 2,
+  "plugins_rewritten": 0,
+  "files": [
+    {
+      "original_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/BiliBili.ADBlock.boxjs.json",
+      "mirror_path": "scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/BiliBili.ADBlock.boxjs.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/BiliBili.ADBlock.boxjs.json",
+      "fetched_from": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/BiliBili.ADBlock.boxjs.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "f5fb1319de5b2258064ac9180e73654b9c0ed29ee395d4c36b6e22e05990360b",
+      "size": 5981
+    },
+    {
+      "original_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "mirror_path": "scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "fetched_from": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "47d002c07da40357110c8ae5406f117bc608812d075eb54a54b2cbd768ea5b1a",
+      "size": 215238
+    },
+    {
+      "original_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "mirror_path": "scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "fetched_from": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "e8768eb5c75bbfaea78f5798ac7827c431f81a61416a7877753f36dd36b9cb60",
+      "size": 1091042
+    },
+    {
+      "original_url": "https://github.com/Biliverse/Global/releases/download/v0.9.3/BiliBili.Global.boxjs.json",
+      "mirror_path": "scripts/github.com/Biliverse/Global/releases/download/v0.9.3/BiliBili.Global.boxjs.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/Global/releases/download/v0.9.3/BiliBili.Global.boxjs.json",
+      "fetched_from": "https://github.com/Biliverse/Global/releases/download/v0.9.3/BiliBili.Global.boxjs.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "f0e46261d08e749bd335bbda82a6339a88ef70312ca2f4e7660aa3d08433ac82",
+      "size": 2078
+    },
+    {
+      "original_url": "https://github.com/Biliverse/Global/releases/download/v0.9.3/request.bundle.js",
+      "mirror_path": "scripts/github.com/Biliverse/Global/releases/download/v0.9.3/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/Global/releases/download/v0.9.3/request.bundle.js",
+      "fetched_from": "https://github.com/Biliverse/Global/releases/download/v0.9.3/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "511cdc2d5f0f738889e94a0518c16fd2c6d4906fef925bb65a7d8f68bede9625",
+      "size": 776609
+    },
+    {
+      "original_url": "https://github.com/Biliverse/Global/releases/download/v0.9.3/response.bundle.js",
+      "mirror_path": "scripts/github.com/Biliverse/Global/releases/download/v0.9.3/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/Global/releases/download/v0.9.3/response.bundle.js",
+      "fetched_from": "https://github.com/Biliverse/Global/releases/download/v0.9.3/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "b7dd80446c7cf704cf26ec8f3fccb62a527f469d1ea9f48c08e8cae7de0a57f3",
+      "size": 369119
+    },
+    {
+      "original_url": "https://github.com/Biliverse/Redirect/releases/download/v0.2.25/BiliBili.Redirect.boxjs.json",
+      "mirror_path": "scripts/github.com/Biliverse/Redirect/releases/download/v0.2.25/BiliBili.Redirect.boxjs.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/Redirect/releases/download/v0.2.25/BiliBili.Redirect.boxjs.json",
+      "fetched_from": "https://github.com/Biliverse/Redirect/releases/download/v0.2.25/BiliBili.Redirect.boxjs.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "a9a564966b837dde2a4c58b873baa9c3390537f364641b0affbdaf2771353778",
+      "size": 4850
+    },
+    {
+      "original_url": "https://github.com/Biliverse/Redirect/releases/download/v0.2.25/request.bundle.js",
+      "mirror_path": "scripts/github.com/Biliverse/Redirect/releases/download/v0.2.25/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/Biliverse/Redirect/releases/download/v0.2.25/request.bundle.js",
+      "fetched_from": "https://github.com/Biliverse/Redirect/releases/download/v0.2.25/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "f52bd73add6953cd3bc1484364e6feae803fbac14b15a1171568236ab5af9785",
+      "size": 22905
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Netflix/releases/download/v0.6.0/DualSubs.Netflix.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Netflix/releases/download/v0.6.0/DualSubs.Netflix.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Netflix/releases/download/v0.6.0/DualSubs.Netflix.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Netflix/releases/download/v0.6.0/DualSubs.Netflix.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "ac0bd6d67018d4f797cae29eec00b551ec91da721aac2e3201552466c1f34350",
+      "size": 3010
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/DualSubs.Spotify.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/DualSubs.Spotify.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/DualSubs.Spotify.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/DualSubs.Spotify.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "dc4ca78b63eeee0dff388dc4236e756fec250fdcf1ca3bb5959e37229d4a54af",
+      "size": 2955
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/request.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/request.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "5d79ba2c5b9c9b078f85b3faa464404726a7c0bd2bdcd99b3fc729c6bbe077e7",
+      "size": 21459
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Spotify/releases/download/v1.10.0/response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Spotify/releases/download/v1.10.0/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "62d072e6c85f799945c7177892915215c68098cfa8e66268659111fda485eced",
+      "size": 83631
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Composite.Subtitles.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Composite.Subtitles.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Composite.Subtitles.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Composite.Subtitles.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "695ef3e205a54209520f3577c6bd0ba59ef096dacaeb077d148b4b9db3a9edab",
+      "size": 65201
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.API.Translate.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.API.Translate.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.API.Translate.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.API.Translate.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "12c8b7f3b81142a0c4b67d4540caf9c835535ef68d0c5df46630a1bde95552b9",
+      "size": 2912
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Composite.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Composite.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Composite.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Composite.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "260900955eba8d2e4493fd14f479a8e2a5d7976fc00d5688ddee8020ec2444c0",
+      "size": 1643
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.External.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.External.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.External.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.External.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "4ab7a492e3b8f7b474102ea635d84ff2be9a6c28fc62916cbe9ec71d6224a319",
+      "size": 1145
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Translate.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Translate.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Translate.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Translate.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "72dd406b2adf55aeb19a396876ec993d0690617cefb166dacc9799ef01493618",
+      "size": 2475
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Universal.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Universal.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Universal.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/DualSubs.Universal.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "a0d6c95f7b76c2a03c8eb215238bc99f91548fff758ae8b67efd9c352b59177c",
+      "size": 3139
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Manifest.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Manifest.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Manifest.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Manifest.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "91fa585522cfd622ce9b324eb0f66047a39e4c8270eb7999a7197984044aa90b",
+      "size": 58963
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Translate.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Translate.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/download/v1.8.2/Translate.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/download/v1.8.2/Translate.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "d15c36bc2563f6cf961b08efdba02faa4fe1ae4f184780c5a76246571b2923c5",
+      "size": 125387
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/latest/download/Composite.Subtitles.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/latest/download/Composite.Subtitles.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/latest/download/Composite.Subtitles.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/latest/download/Composite.Subtitles.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "695ef3e205a54209520f3577c6bd0ba59ef096dacaeb077d148b4b9db3a9edab",
+      "size": 65201
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/latest/download/External.Lyrics.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/latest/download/External.Lyrics.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/latest/download/External.Lyrics.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/latest/download/External.Lyrics.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "f60bbaf896f9fcd321e887592b4723f7b56b9e3ba7d2fb0d2698a12497ec937e",
+      "size": 99867
+    },
+    {
+      "original_url": "https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/Universal/releases/latest/download/Translate.response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "d15c36bc2563f6cf961b08efdba02faa4fe1ae4f184780c5a76246571b2923c5",
+      "size": 125387
+    },
+    {
+      "original_url": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/DualSubs.YouTube.PreferencePanes.json",
+      "mirror_path": "scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/DualSubs.YouTube.PreferencePanes.json",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/DualSubs.YouTube.PreferencePanes.json",
+      "fetched_from": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/DualSubs.YouTube.PreferencePanes.json",
+      "note": "original",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "f0fd4167c7c9f23efdf189a30674f02daf29ba085a7afce2d74ea244b1780967",
+      "size": 1953
+    },
+    {
+      "original_url": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "9950e808cb22b612d363d636d4ed45f3fc96e81f9ba7cf94518bd77b327bb592",
+      "size": 82611,
+      "remote_loads": [
+        "remote script URL: https://www.youtube.com/sw.js"
+      ]
+    },
+    {
+      "original_url": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/response.bundle.js",
+      "mirror_path": "scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/response.bundle.js",
+      "fetched_from": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "fb720a3828fcb80ca716fe38ab75c08292fe73e8c166653e56263f3eb5614502",
+      "size": 71255
+    },
+    {
+      "original_url": "https://github.com/NSNanoCat/PreferencePanes/releases/download/v1.3.1/api.js",
+      "mirror_path": "scripts/github.com/NSNanoCat/PreferencePanes/releases/download/v1.3.1/api.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSNanoCat/PreferencePanes/releases/download/v1.3.1/api.js",
+      "fetched_from": "https://github.com/NSNanoCat/PreferencePanes/releases/download/v1.3.1/api.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "2892d3dbc2544207faf73a6f46f11b6247d6f0ac994a79a6159a993eb57db13e",
+      "size": 56479
+    },
+    {
+      "original_url": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/request.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/GeoServices/releases/download/v4.6.1/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/GeoServices/releases/download/v4.6.1/request.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "4483623a4b6b9cbef897b25e7881a03143461055696fc5a750af518165b96dc2",
+      "size": 151666
+    },
+    {
+      "original_url": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/response.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/GeoServices/releases/download/v4.6.1/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/GeoServices/releases/download/v4.6.1/response.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "4d6c18dca53c4ae85ac836a2d3d19f7be1a7fc32e2c74af5783ec6a62cb75fd0",
+      "size": 155957
+    },
+    {
+      "original_url": "https://github.com/NSRingo/News/releases/download/v3.2.1/request.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/News/releases/download/v3.2.1/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/News/releases/download/v3.2.1/request.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/News/releases/download/v3.2.1/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "04702194e559f448b78b169fa266719898ece4da725e49d89dd730df844703fc",
+      "size": 64150
+    },
+    {
+      "original_url": "https://github.com/NSRingo/Siri/releases/download/v4.2.7/request.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/Siri/releases/download/v4.2.7/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/Siri/releases/download/v4.2.7/request.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/Siri/releases/download/v4.2.7/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "0725d734f78195438e7cc87e4d3e8464b3a237a6cb83514e60750cfd78b2f8ef",
+      "size": 145455
+    },
+    {
+      "original_url": "https://github.com/NSRingo/Siri/releases/download/v4.2.7/response.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/Siri/releases/download/v4.2.7/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/Siri/releases/download/v4.2.7/response.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/Siri/releases/download/v4.2.7/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "42401aa3ea5b8bd784ec3cf3f9070e237291f975e395a068b938cc27672cc38b",
+      "size": 65085
+    },
+    {
+      "original_url": "https://github.com/NSRingo/TV/releases/download/v3.4.4/request.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/TV/releases/download/v3.4.4/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/TV/releases/download/v3.4.4/request.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/TV/releases/download/v3.4.4/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "5e4a3339d51f01e92059055de07a76bfd4f072ae57e3073059c1a04a3f490f9a",
+      "size": 52816
+    },
+    {
+      "original_url": "https://github.com/NSRingo/TV/releases/download/v3.4.4/response.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/TV/releases/download/v3.4.4/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/TV/releases/download/v3.4.4/response.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/TV/releases/download/v3.4.4/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "35567e0bc825ee19a5a543edc85495cdf6cea9616c43e2d7e9dbf15c42a51302",
+      "size": 50532
+    },
+    {
+      "original_url": "https://github.com/NSRingo/TestFlight/releases/download/v3.4.0/request.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/TestFlight/releases/download/v3.4.0/request.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/TestFlight/releases/download/v3.4.0/request.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/TestFlight/releases/download/v3.4.0/request.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "a03f141a5a715e00fc97a07d17d41607b9acec0e68953b0caa7ec5c185965ea9",
+      "size": 25108
+    },
+    {
+      "original_url": "https://github.com/NSRingo/TestFlight/releases/download/v3.4.0/response.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/TestFlight/releases/download/v3.4.0/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/TestFlight/releases/download/v3.4.0/response.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/TestFlight/releases/download/v3.4.0/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "af148b947a0340427ba2df7ad5775b3fe7233462790c66a9096140bb97fe4406",
+      "size": 24225
+    },
+    {
+      "original_url": "https://github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+      "mirror_path": "scripts/github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+      "fetched_from": "https://github.com/NSRingo/WeatherKit/releases/download/v3.1.0/response.bundle.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "e7c75725d67c4e8f78d3fdc003481762a377c624ae89bba64b23b2cb5ea9f342",
+      "size": 240960
+    },
+    {
+      "original_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+      "mirror_path": "scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+      "fetched_from": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "264d52d7e56650e45588b953b8facb00ab84502b833a3ddf8c4e4ee394d26307",
+      "size": 1283898
+    },
+    {
+      "original_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+      "mirror_path": "scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+      "fetched_from": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "e7bfcaf78bc4ec2354e8a545211f8794f3137e8a91eea5cd7be7386cdf3a2f09",
+      "size": 1333524
+    },
+    {
+      "original_url": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+      "mirror_path": "scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+      "fetched_from": "https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5818bc626d203a6bcedbe82d84a87fb25d0d917f78457beb2aa60ac5f48dc2b9",
+      "size": 1322427
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/Amap/search_poi_detail.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/Amap/search_poi_detail.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/Amap/search_poi_detail.jq",
+      "fetched_from": "https://raw.githubusercontent.com/zmjde/loon-plugins/main/JQ/Amap/search_poi_detail.jq",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+      "size": 14
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/Amap/updatable.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/Amap/updatable.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/Amap/updatable.jq",
+      "fetched_from": "https://raw.githubusercontent.com/zmjde/loon-plugins/main/JQ/Amap/updatable.jq",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+      "size": 14
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/JQLang/mine_Bilibili_remove_ads.jq",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "db19866bc38c0eaf49c21415ec04a6ea5d1c4bda00a5e3d76991e58cf3764ed6",
+      "size": 7722
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/JQLang/tab_Bilibili_remove_ads.jq",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "d826b2653a518ae65da4fc24260b37401b483cfe4384b593dd632f6e1553922f",
+      "size": 2087
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/JQLang/Reddit_remove_ads.jq",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "a403bd6fb0a2581d0ecdcc330629b3806dd5be7bd177ef9a741196a08f2514f8",
+      "size": 934
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq",
+      "mirror_path": "scripts/kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/JQLang/home_smzdm_remove_ads.jq",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "jq_file"
+      ],
+      "sha256": "88f52c6792bbee1c7285c4e572869ddd4fd84f9c013b11575755dd52b24a8605",
+      "size": 1527
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/12306/12306_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/12306/12306_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/12306/12306_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/12306_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "63d47ec91176c6fd62ef7de1759dccdb0625a98b46b2e7ac7db8970fd88dad36",
+      "size": 1971
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/AliYunDrive_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "46f3be83be7d1e6cd5abb7bace23bb3bec76971060eebefc3c1252fce09e3048",
+      "size": 1297
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/AutoHome/AutoHome_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/AutoHome/AutoHome_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/AutoHome/AutoHome_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/AutoHome_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "0df0fcaac588e78c59575868d3d15c1cfcf176125809b833772ff2022608c2e4",
+      "size": 2592
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/BabyTree/BabyTree_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/BabyTree/BabyTree_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BabyTree/BabyTree_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/BabyTree_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "9a579aa64dd1850fd73fbc931bbfae21c0f85c4fc409943e7fbe53a8abfaac06",
+      "size": 2441
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BaiduSearch/BaiduSearchHomePage_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/BaiduSearchHomePage_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "f9e25a962477170c3ca2ae33a847342df55115bbc55e4a810d95a277d044f08f",
+      "size": 23171
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Baidu_input_method_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "d3c787de9a07f6e5226aa5d4c17ac1c08173a47ef6da99137e8eae2d82250633",
+      "size": 1525
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BiliComic/BiliComic_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/BiliComic_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "202a1a859a15f6c1f1614ef32d3e27f2d67112eec26940b8ffffd69c9ecd4ad2",
+      "size": 1516
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_json_kokoryh.js",
+      "fetched_from": "https://raw.githubusercontent.com/zmjde/loon-plugins/main/JS/Bilibili/Bilibili_json_kokoryh.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "521a3974d1a485daf5750bc7b986ee5b64325480ed80da2e7d90265f4ad57090",
+      "size": 19427
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_request_kokoryh.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Bilibili_proto_request_kokoryh.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "2b1a8fe4e9ac713edb070cf6134138f8938504727ce159a8cf425487a17e176a",
+      "size": 43929
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Bilibili/Bilibili_proto_response_kokoryh.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Bilibili_proto_response_kokoryh.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5ca12c2a517a52edf688a6fbf4afdb7065e81e6782eedd4a4faa1aeed150d810",
+      "size": 91776
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Bixin/common_tab.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Bixin/common_tab.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Bixin/common_tab.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Bixin_remove_ads/kelee.one_common_tab.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "779cce9e7ca26323f8965b07412056e3f6d825b7a0e99e5d5707ebf24d6b898c",
+      "size": 185530
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Bixin/my_page.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Bixin/my_page.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Bixin/my_page.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Bixin_remove_ads/kelee.one_my_page.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "06eb371ea79bae01f6f0bcced91af0cd534312e5266586f17aa94bd69958f7ee",
+      "size": 185527
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/BooHee/BooHee_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/BooHee_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "8c0478b645ee6bc019d90d88d9565f981caa0d80d76431fc473fc5fb68f8daed",
+      "size": 446
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/CaixinMedia/CaixinMedia_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/CaixinMedia/CaixinMedia_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/CaixinMedia/CaixinMedia_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/CaixinMedia_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "aa4bf5f4febf46d3ed2a046e1e66e8d305c7d3b26335c4c58aa708d8ef57ca3e",
+      "size": 2543
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Chelaile_remove_ads/kelee.one_Chelaile_remove_ads.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "80b889b0fd9f45da4b3327d57bb9ad1809958c68478d1bdc4cc5a62ef9e69919",
+      "size": 2921
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/ColorfulClouds_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "4400e005743a4b6ca685f0d1462b38e23d3e1b6f1e667f1a39289ca1182f8199",
+      "size": 1143
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/CommonScript/replace-body.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/replace-body.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "e796e024d308431e60a630adf2bc06e564dfff43af6bbda77aa58395b505ce24",
+      "size": 1816
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/DjDuoDuo_remove_ads/kelee.one_DjDuoDuo_remove_ads.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "6357b9dd30b48b64e24d206763e8276ac28b4e2a88c0435116eda42fdecda9e6",
+      "size": 213381
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Douyu/Douyu_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Douyu_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "9113a9de4972512f1f955cc739b5513ab5bb68a88d3166a1713a53f402d5ac93",
+      "size": 1288
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/DubbingShow_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "6c03b4cc4f79b89129fd3729149832696c7082b5bfa648fbf0a0a452953a387b",
+      "size": 784
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Fileball_mount.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "3bd83ec1d825df636004d067bf189a164d50564713ac2cbe5a9951eeef55b324",
+      "size": 6737
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/FlyerTea/FlyerTea_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/FlyerTea_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "a5c36f508f5702affe4de2a320696547f9baf5d3a4edb65661b76444a56c3600",
+      "size": 1747
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/FollowRSS/FollowRSS_checkin.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/FollowRSS_checkin.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "ded948358bc8a86f1abc091545fc195e4eff1151de8b667c8028f3fdf27909e0",
+      "size": 10667
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/HUPU/HUPU_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/HUPU_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "acebb23f64979bc545a376fa12ca5d9110169c4524eb3a2aaa27c6dd28a010d3",
+      "size": 1536
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/IPATool/kelee.one_AppStoreAPI.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "9dac5e77b13a745a4db05c9752ce338fbd132c3166bca3be7742b0c44fc8479d",
+      "size": 31485,
+      "remote_loads": [
+        "remote script URL: https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/SimpleExpressBeta.js, https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/plist-complete.js, https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/utils.js",
+        "dynamic import()"
+      ]
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/IPATool/Installer.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/IPATool/Installer.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/IPATool/Installer.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/IPATool/kelee.one_Installer.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "1c50b23138e1ded6f3279149b2a7c642e3d2b8258feaeff618d558ebd2b6d9d4",
+      "size": 1149
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/IThome_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5f21176cc9fadf8434e0a530e33e36af5a8c736d3cf7a4050b8062be7f6da6b1",
+      "size": 1856
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/JD/JD_Price.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/JD/JD_Price.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/JD/JD_Price.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/JD_Price.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "c877553f83885aaf66077c728bd1b26c1e9973298ee327b2b30ddd8875a8f5d2",
+      "size": 30230
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/JD/JD_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/JD_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "813d8882341b1d38d1316790d6004b730655d51f48b534f29312ccc782ccba38",
+      "size": 6902
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/KebidaDushu/KebidaDushu_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/KebidaDushu/KebidaDushu_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/KebidaDushu/KebidaDushu_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/KebidaDushu_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "54c772fc647405d8ad5311feb574da63aaf8377814a39910c48314f207b5e139",
+      "size": 7684
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/KuaiKanComic/KuaiKanComic_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/KuaiKanComic_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "cac67695c64a942d248dec0a6774df096779f92a2c6ad8c464f780fcb9a31eb3",
+      "size": 2519
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/MKZ/MKZ_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/MKZ_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "063a67a6cadd45e18b90704b2aa27ae23606f8b26cf03904542769435085356a",
+      "size": 326
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/MaiMai/MaiMai_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/MaiMai/MaiMai_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/MaiMai/MaiMai_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/MaiMai_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "cb54efbe58307256c0b43694530e7fb89bf22244f144eb4c31c08cc4f9b7efb1",
+      "size": 799
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/MeituMYXJ_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "12ae25babc8d37dd46de973118991a7f73890e051afdedbed9279f9c2769bc6d",
+      "size": 779
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/MotorFans_remove_ads/kelee.one_MotorFans_remove_ads.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "f464b6e3853433ae5fb5667c9b17b0333cffdc0c24014b7607fde6d39823f16d",
+      "size": 4181
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/NetEaseGodlike/NetEaseGodlike_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/NetEaseGodlike/NetEaseGodlike_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NetEaseGodlike/NetEaseGodlike_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NetEaseGodlike_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "e64216b6c443b2bfdabd9ffcac396b96065536afc8bb61ca9749e8af61902cf0",
+      "size": 4766
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NeteaseCloudMusic_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "c3dc933b491694109a574b16ed1d77eaf4910ff935bbc53abb8273ae2a907bf6",
+      "size": 17497
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NeteaseNews_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "15b4edf104b4e6d182e1aa71b5afb9aad1c3506205e50affa0a49ddca0a7b1db",
+      "size": 1064
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NodeLinkCheck.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "ef02de40d1e482f245d1f4adf54072b18ac59c98f508605350270fa92d4b7ffa",
+      "size": 38650
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/LocationDetection.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/LocationDetection.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "bfd28247aee4ac63e7db912826b6c786b520e1565e1039726aa8d938789931dd",
+      "size": 5224
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NetworkEntryAndExitQueries.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NetworkEntryAndExitQueries.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "7dc59213b56c0763d9b371015da16fdda204e7d8d55611c50885ecae7bea455e",
+      "size": 58368
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Node_detection_tool/NodeUnlockDetection.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/NodeUnlockDetection.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "283016dd8c3198bbe5a006321bf5d597ab785e90419ef4d6c931190004ac5699",
+      "size": 25646
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/PICC_Insurance_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "a7a67ceff2888f771798793f35ded39c04517058da31f38c3740aa2ba6b78832",
+      "size": 695
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PinDuoDuo/PinDuoDuo_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/PinDuoDuo_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "23a154e07249b50f1a7f6a049113c02d1b2fc883378526b4e6806cc0c79aa86c",
+      "size": 1179
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PuPuMall/PuPuMall_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/PuPuMall_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "790b09fa86898769dea9fc49bb6382e09053524e30800648e9dd2b8b4e7b2675",
+      "size": 1837
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Qbb/homepage.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Qbb/homepage.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Qbb/homepage.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Qbb_remove_ads/kelee.one_homepage.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "777c52e0bb54ff3982350f826bc9a3cdbddc74538c6411e87cd050e775e7548a",
+      "size": 371266
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Qbb/my.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Qbb/my.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Qbb/my.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Qbb_remove_ads/kelee.one_my.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "11f97d5614fa9e1476f0f0993908cff31cc6137a7b10d2bbf2be10f0b28210ab",
+      "size": 371270
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/RedPaper/RedPaper_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/RedPaper_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "86291030a9a44c242465cee88f96b212a2140492228a8777509122f2d7df6da2",
+      "size": 14632
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/RiskBird/RiskBird_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/RiskBird_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "d57aa62a7f0b237f31089ed652f1660af776b30e315cf31e6d1479fd39d35a25",
+      "size": 253
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/ShoujiDesk/base_init.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/ShoujiDesk/base_init.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/ShoujiDesk/base_init.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/ShoujiDesk_remove_ads/kelee.one_base_init.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "d588c5dae21ce09cb39617aa7abbd01cf976ec148083b45fc261fccccd67d68d",
+      "size": 54278
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/ShuQiCenterReader_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "b03daac76090aed1e9b5bbf7d545956ee47712c3208ff6d8be2fdfdbc0edf422",
+      "size": 579
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/SodaMusic/SodaMusic_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/SodaMusic_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "c29ca5a43370e9de956bb9a2d8a14619b7134c1d00db35a44c047a01edd90c9b",
+      "size": 1078
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Soul/Soul_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Soul/Soul_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Soul/Soul_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Soul_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "b2567f3db7b21b303225727a5d49abba94bc211b947717ad3993c390ae7c0aba",
+      "size": 1819
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Spotify/External_Lyrics_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Spotify/External_Lyrics_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Spotify/External_Lyrics_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/External_Lyrics_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "a6ee42307685ebf49b7fb21baea4631546a50684fbbde81d5be028d530135bdb",
+      "size": 631517
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Spotify_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "f6e9125bd77030d8ac1a6829947b13b54174257965f67920ae17016b61280294",
+      "size": 9474
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_request.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_request.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_request.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Spotify_request.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "b10d7ec7e217ff462417b6c5acfca63bbaf2a7785b76c42bdf7c2c2094b02abe",
+      "size": 566814
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Spotify/Spotify_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Spotify/Spotify_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Spotify_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "471d2c9f1b0d896a9c6bf88119fef91b0367ff4a7b12919ad796429a54aa276d",
+      "size": 604498
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Spotify/Translate_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Spotify/Translate_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Spotify/Translate_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Translate_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "a6198f1e497f030f9d6fc5741bef55d8036ac23544476734146792955ccbe5ff",
+      "size": 654076
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/TV_Assistant_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "b4d251eaf273d1d57f15d63e5f326a34d782ed2ed51aabb0d211c8994a272cf8",
+      "size": 319
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Taobao/Taobao_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Taobao_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "ea9b7e89c78329038e0fc590867c4da4da178ee67e1f6863c14da8e44142917d",
+      "size": 3264
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/TestFlight/AutoJoinTF.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Auto_Join_TF/kelee.one_AutoJoinTF.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "27dfc19b260b033362be1969ef992b2f3f9bd114ce2d48dc9d0d17ea86980b00",
+      "size": 17595
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/TestFlight/AutoMonitorTF.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Auto_Join_TF/kelee.one_AutoMonitorTF.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "709cec812e71a2f8db7b5c05769be17fce0a3ea61057a604b024a9f836f7b58f",
+      "size": 18492
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/TestFlight/CaptureAccountToken.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Auto_Join_TF/kelee.one_CaptureAccountToken.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "91d510d7d283b3e55a7b8be3ec95433399f1c4f2802b25f4c066ae362f3032f5",
+      "size": 15431
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Tieba/tieba-proto.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Tieba/tieba-proto.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Tieba/tieba-proto.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/tieba-proto.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "3bac7d215e702cd6622383aba08eb9c3653e8ac4231cce96c0a2564a4537e0f1",
+      "size": 88515
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Uki/Uki_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Uki_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "4756dd76650445dbe9f7dba3c052d7ccfae84f8a6512a4ee4b7228b7aca341f9",
+      "size": 1022
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Umetrip/Umetrip_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Umetrip_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "dbfa4923f68013e348fcb2e7cf89f5a4347cbb5dbbfe5a2c2482b5bda0496792",
+      "size": 261
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/VVebo/VVebo_repair.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/VVebo_repair.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "eb867c5cf7beae64b36cb65d97797494c2d6747bb594c716a5ce5e3bd0973874",
+      "size": 1468
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/WPS_checkin.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "cc1aebdca92231ad4a2a4876b5c964602a71ee99352eb3ce3a0023162fd333e6",
+      "size": 14138,
+      "remote_loads": [
+        "remote script URL: https://cdn.jsdelivr.net/npm/crypto-js/crypto-js.min.js, https://cdn.jsdelivr.net/npm/crypto-js/md5.min.js, https://cdn.jsdelivr.net/npm/dayjs/dayjs.min.js, https://cdn.jsdelivr.net/npm/fabric@latest/dist/fabric.min.js, https://cdn.jsdelivr.net/npm/js-base64@3.7.5/base64.min.js",
+        "getScript"
+      ]
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Weibo/Weibo_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Weibo_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5c648b5e1d12cd964ebf58fe50a45e85bfb9ba9beee56b0e2e5d60db36ee8c6d",
+      "size": 54799
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Weidian/getAppConfig.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Weidian/getAppConfig.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Weidian/getAppConfig.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Weidian_remove_ads/kelee.one_getAppConfig.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5dfa32387cc7d12bf1bb517067b2abc8a2e4d3eb83049c98cdcafed2857b24b1",
+      "size": 282396
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Weidian/wallet.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Weidian/wallet.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Weidian/wallet.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/Weidian_remove_ads/kelee.one_wallet.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "58668f38684df224e19d4f9c78e37c29c13c151359e1d9ea03f1138d0ab32b02",
+      "size": 282398
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Weixin/Weixin_external_links_unlock.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/Weixin_external_links_unlock.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "2de1806bf392bf1bb22b636419f1f38d9eb43e2dbb534fff4e4e084f9a19e781",
+      "size": 86525
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/FamilyMart/FamilyMart.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/FamilyMart.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "463a6a5fb8aab492bbab6f3a7af401d1a815024091e784106fa79fc8ac2ca140",
+      "size": 197
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/M_Stand/M_Stand.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/M_Stand.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "faebcaf6d2e52f80019bd6342a3c8342a320c03e6c418e523536988fa4e24df5",
+      "size": 590
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/T3/T3.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/T3.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "276834dc8c3cdf67cc942ffae11c004931f4a317960e380321070cee26385482",
+      "size": 173
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/alittle-tea/alittle-tea.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/alittle-tea.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5f9f5379b3259a318577bf0e82d54e32815489eaad689ec38f70e1ef1bb17334",
+      "size": 188
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/chayanyuese_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "b994cd31d4f3b5ab5126c029ed9b7bd61d9f4877242a0f7988f9b837ceb85034",
+      "size": 442
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/coco/coco.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/coco.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "ce813cb9eaf748630e45569a968cbd5f66d9a7994c8944be553bbbeaf631aad6",
+      "size": 231
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/ems/ems.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/ems.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "1c9441c9402e5b45563da4d388687e92af9dc2ec893ac9a6fbcd9b11ccdf50ae",
+      "size": 280
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/kff/kff.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/kff.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "306b166a644e500bc1aed9783fb4e741f150e1f234bc11b4390742b899a21ccd",
+      "size": 1253
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/lawson/lawson.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/lawson.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "f814b6e1b6709ab2881b89aefda7fb36727bbf4c122902ef4a69eb249d2b80bd",
+      "size": 235
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/ming/ming.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/ming.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "3251c996ac03d26d36a239c83005c557c0a6c67b67e702f56f750edbd7e378b1",
+      "size": 170
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/qingju/qingju.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/qingju.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "3a7ea263ae86afc4634e2aad459eba2433afd9f853a655cfcf354ab2e12a6411",
+      "size": 196
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/WexinMiniPrograms/xiaotucc/xiaotucc.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/xiaotucc.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "353182ef250caa5f34c8cfea3dafa2d36f072ff95f08c82e199dfe3967b6b189",
+      "size": 450
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/XiaojukejiCharge/XiaojukejiCharge_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/XiaojukejiCharge_remove_ads/kelee.one_XiaojukejiCharge_remove_ads.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "mock_file"
+      ],
+      "sha256": "807a08b4daff3797c09f17d1a844cdc75bf3f46aaea58e3f0b6e41ad57161f7a",
+      "size": 1702314
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_Composite_Subtitles_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "c6e3ac791ea2ee24724a3733a1625907dd4398850b7738edbf5711f00eefb6c6",
+      "size": 54169
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_Subtitles_Translate_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "1417ee2b0bb32900899f94294377269354ca61ad86cab265c05ad8349273a4ea",
+      "size": 653787
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_Subtitles_request.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "13e8d1bfe0228183867e034f554ea405addec32b928771d152d40837e222bf56",
+      "size": 66489
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_Subtitles_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "162d8451f29bfedbfcce255cd2f4045a93700aff0be9cb55132d09db46054d1e",
+      "size": 65492
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+      "fetched_from": "https://raw.githubusercontent.com/zmjde/loon-plugins/main/JS/YouTube/YouTube_remove_ads/YouTube_remove_ads_request.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "20f4ab031620b950f198d741eb288a891196fd538f129ea65c926370447f2477",
+      "size": 42919
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/YouTube_remove_ads_response.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "2b31b446e1106c1c743ee7b7674132a71131e78ef4e742ab36d5b4519f4820ea",
+      "size": 123849
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/iMaiCai_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "5ae3054b04918920d512181bda5b0f78076352c85b0080886e64bdc3aa437a5c",
+      "size": 307
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/core_initialize.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/iWallBiZhi/core_initialize.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/iWallBiZhi/core_initialize.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/iWallBiZhi_remove_ads/kelee.one_core_initialize.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "85bb24cccb37499fe8c4e334a61b3c8b5a6485bb167a33141879e46ee0a3f531",
+      "size": 207344
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/landing.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/iWallBiZhi/landing.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/iWallBiZhi/landing.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/iWallBiZhi_remove_ads/kelee.one_landing.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "66aec750fd71c6de8100e26789080efc736c3592f982cfb6703cdb13e96af1db",
+      "size": 207119
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/iWallBiZhi/landing_initialize.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/iWallBiZhi/landing_initialize.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/iWallBiZhi/landing_initialize.js",
+      "fetched_from": "https://raw.githubusercontent.com/ifflagged/Romeo/main/Modules/JavaScript/Kelee/iWallBiZhi_remove_ads/kelee.one_landing_initialize.js",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "e799e430ef3f751c686a4cf3df5d8dc2ab7c7b81170f3feb08e6ee45452762e9",
+      "size": 207130
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js",
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js",
+      "fetched_from": "https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/mobileClouds_remove_ads.js",
+      "note": "kelee.one blocked; same filename in mihoyo-typ/KeleeOne",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "fe23cafda37887bda877906adfe9bd0b7f0fdb93b628550a732096088e9a0446",
+      "size": 1545
+    },
+    {
+      "original_url": "https://kelee.one/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+      "mirror_path": "scripts/kelee.one/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+      "fetched_from": "https://raw.githubusercontent.com/luestr/ProxyResource/main/Resource/Zip/DREAME/d6996fee95380affdf740ee44a85fbe9___UNI__EDB922E.zip",
+      "note": "kelee.one blocked; public GitHub copy of this file",
+      "kinds": [
+        "zip"
+      ],
+      "sha256": "3562b1cc7cdb67f225e1d73e032741a41ace4559b3dc5738a205af5b5d4bf5c2",
+      "size": 4647618
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/Keywos/rule/main/loon/tk.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/Keywos/rule/main/loon/tk.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/Keywos/rule/main/loon/tk.js",
+      "fetched_from": "https://raw.githubusercontent.com/Keywos/rule/main/loon/tk.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "1726d99fbc0bd9af1dd2a0c07f2b4d31d9e3e66d7624c3c081b069520c699326",
+      "size": 936
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "fetched_from": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "c5e46afa219424e22bcba151dbd6f5e4c6caf518cfdf3317381f4c7e2068e51b",
+      "size": 114680,
+      "remote_loads": [
+        "remote script URL: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/echo-response.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js"
+      ]
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+      "fetched_from": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/rule-parser.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "6d30380cc68e112b5bcb5d9b2013d553d3c48612b1c61e78f0e0bfae3e48ca2c",
+      "size": 24403
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+      "fetched_from": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "27fc22ac5a40364fbe0728d7264e163431656e7b142cde6337ecad11e5d60b78",
+      "size": 29542
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+      "fetched_from": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-hub.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "6a0c1d8e05136e7f134bfbf0dd94a8ab7356b22607a1ba7bace57820e2bc7af1",
+      "size": 259406
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+      "fetched_from": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "09d152d35b5eaa589f95b7fb9d6e3ba94a8c12a4e54afcb207df53a929835d22",
+      "size": 23675
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+      "fetched_from": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.request.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "3dbbac042b8aa49e92cb9b09c3724597122603c2dc68d4a878aca6e66713e66a",
+      "size": 19022
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+      "fetched_from": "https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.response.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "084e5f5e92bb07ed20adc9be0f3b2f6ce18c3622651f08377127d13cae2c1ad4",
+      "size": 24170
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js",
+      "fetched_from": "https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "98b921f278eae3f4d99751a35c2b0c867b9716bd20713da14859f4033f8c7394",
+      "size": 2283
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js",
+      "fetched_from": "https://raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js",
+      "note": "original",
+      "kinds": [
+        "script-path"
+      ],
+      "sha256": "489f711e41734a6c9a8749d79923c3dc3930c63239fc7e97cb3e25a29c9eafd3",
+      "size": 292
+    },
+    {
+      "original_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "mirror_path": "scripts/raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "mirror_url": "https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "fetched_from": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "note": "original",
+      "kinds": [
+        "script"
+      ],
+      "sha256": "24ab4513d9b210d3921f87660175ddf408f2c4728a01ecb391082e82d8f8ffa6",
+      "size": 52473,
+      "remote_loads": [
+        "remote script URL: https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, https://raw.githubusercontent.com/dompling/Script/master/gist/commit.js, https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js",
+        "getScript"
+      ]
+    }
+  ],
+  "left_external": [
+    {
+      "original_url": "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/TikTok/TikTok_remove_watermark.js",
+      "kinds": [
+        "script-path"
+      ],
+      "reason": "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/TikTok/TikTok_remove_watermark.js -> HTTP 403 ua=Loon; HTTP 403 ua=Mozilla | https://raw.githubusercontent.com/lodepuly/vpn_tool/master/Resource/Script/TikTok/TikTok_remove_watermark.js -> HTTP 404 ua=Loon | https://cdn.jsdelivr.net/gh/lodepuly/vpn_tool@master/Resource/Script/TikTok/TikTok_remove_watermark.js -> HTTP 404 ua=Loon"
+    },
+    {
+      "original_url": "https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js",
+      "kinds": [
+        "script"
+      ],
+      "reason": "https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js -> HTTP 403 ua=Loon; HTTP 403 ua=Mozilla | https://raw.githubusercontent.com/mihoyo-typ/KeleeOne/Loon/Script/mobileconfig-gateway.js -> HTTP 404 ua=Loon"
+    }
+  ],
+  "remote_code_dependencies": [
+    {
+      "mirror_path": "scripts/github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "original_url": "https://github.com/DualSubs/YouTube/releases/download/v1.6.0/request.bundle.js",
+      "remote_loads": [
+        "remote script URL: https://www.youtube.com/sw.js"
+      ]
+    },
+    {
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+      "original_url": "https://kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js",
+      "remote_loads": [
+        "remote script URL: https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/SimpleExpressBeta.js, https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/plist-complete.js, https://raw.githubusercontent.com/xiaobailian67/Surge/refs/heads/main/utils.js",
+        "dynamic import()"
+      ]
+    },
+    {
+      "mirror_path": "scripts/kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+      "original_url": "https://kelee.one/Resource/JavaScript/WPS/WPS_checkin.js",
+      "remote_loads": [
+        "remote script URL: https://cdn.jsdelivr.net/npm/crypto-js/crypto-js.min.js, https://cdn.jsdelivr.net/npm/crypto-js/md5.min.js, https://cdn.jsdelivr.net/npm/dayjs/dayjs.min.js, https://cdn.jsdelivr.net/npm/fabric@latest/dist/fabric.min.js, https://cdn.jsdelivr.net/npm/js-base64@3.7.5/base64.min.js",
+        "getScript"
+      ]
+    },
+    {
+      "mirror_path": "scripts/raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "original_url": "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/Rewrite-Parser.js",
+      "remote_loads": [
+        "remote script URL: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/echo-response.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js"
+      ]
+    },
+    {
+      "mirror_path": "scripts/raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "original_url": "https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js",
+      "remote_loads": [
+        "remote script URL: https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js, https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js, https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, https://raw.githubusercontent.com/dompling/Script/master/gist/commit.js, https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js",
+        "getScript"
+      ]
+    }
+  ]
+}

@@ -19,8 +19,8 @@ request if ${url} ~= /^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolde
 
 
 [Script]
-response if ${url} ~= /^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets)/i then script("https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js") with tag="移除阿里云盘广告", requires_body=true
-response if ${url} ~= /^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list/i then script("https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js") with tag="移除阿里云盘广告", requires_body=true
+response if ${url} ~= /^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets)/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js") with tag="移除阿里云盘广告", requires_body=true
+response if ${url} ~= /^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js") with tag="移除阿里云盘广告", requires_body=true
 
 [MitM]
 hostname=api.alipan.com, member.alipan.com, bizapi.alipan.com

@@ -18,7 +18,7 @@ request if ${url} ~= /^https:\/\/saas\.hpplay\.cn\/api\/lebo-rabbit\/app-card\/l
 request if ${url} ~= /^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app-user-banner/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$/i then script("https://kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js") with tag="移除底栏视频标签", requires_body=true
+response if ${url} ~= /^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/TV_Assistant/TV_Assistant_remove_ads.js") with tag="移除底栏视频标签", requires_body=true
 
 [MitM]
 hostname=saas.hpplay.cn

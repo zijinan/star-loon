@@ -24,11 +24,11 @@ request if ${url} ~= /^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedi
 request if ${url} ~= /^https?:\/\/interface3?\.music\.163\.com\/eapi\/(ad|abtest|sp|hot|store|search\/(specialkeyword|defaultkeyword|hot))/i then reject(404)
 
 [Script]
-response if ${url} ~= /^https:\/\/nex\.163\.com\/q/i then script("https://kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
+response if ${url} ~= /^https:\/\/nex\.163\.com\/q/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
 
-response if ${url} ~= /^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\?/i then script("https://kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
+response if ${url} ~= /^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
 
-response if ${url} ~= /^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word/i then script("https://kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
+response if ${url} ~= /^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/NeteaseNews/NeteaseNews_remove_ads.js") with tag="移除网易新闻广告", requires_body=true
 
 [MitM]
 hostname=nex.163.com, interface.music.163.com, c.m.163.com, client.mail.163.com, g1.163.com, support.you.163.com, interface3?.music.163.com, gw.m.163.com
