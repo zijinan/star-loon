@@ -1,5 +1,5 @@
 {
-  "count": 275,
+  "count": 292,
   "plugins": {
     "1.1.1.1.lpx": {
       "sha256_12": "2d709ffb5801",
@@ -162,6 +162,27 @@
       "size": 1923,
       "size_human": "1.9 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/Beike_remove_ads.lpx"
+    },
+    "BiliBili.ADBlock.lpx": {
+      "sha256_12": "d473481f4d56",
+      "size": 20373,
+      "size_human": "19.9 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/BiliBili.ADBlock.lpx",
+      "source": "https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin"
+    },
+    "BiliBili.Global.lpx": {
+      "sha256_12": "1dd3f9e9f52a",
+      "size": 8621,
+      "size_human": "8.4 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/BiliBili.Global.lpx",
+      "source": "https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin"
+    },
+    "BiliBili.Redirect.lpx": {
+      "sha256_12": "25168505077c",
+      "size": 7370,
+      "size_human": "7.2 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/BiliBili.Redirect.lpx",
+      "source": "https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin"
     },
     "BiliComic_remove_ads.lpx": {
       "sha256_12": "6e243938e0d4",
@@ -396,6 +417,34 @@
       "size": 1875,
       "size_human": "1.8 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/DragonRead_remove_ads.lpx"
+    },
+    "DualSubs.Netflix.lpx": {
+      "sha256_12": "ccecd3191fed",
+      "size": 2851,
+      "size_human": "2.8 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/DualSubs.Netflix.lpx",
+      "source": "https://github.com/DualSubs/Netflix/releases/latest/download/DualSubs.Netflix.plugin"
+    },
+    "DualSubs.Spotify.lpx": {
+      "sha256_12": "283038c98324",
+      "size": 5099,
+      "size_human": "5.0 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/DualSubs.Spotify.lpx",
+      "source": "https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin"
+    },
+    "DualSubs.Universal.lpx": {
+      "sha256_12": "76ba9e490662",
+      "size": 56410,
+      "size_human": "55.1 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/DualSubs.Universal.lpx",
+      "source": "https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universal.plugin"
+    },
+    "DualSubs.YouTube.lpx": {
+      "sha256_12": "b20314980fe3",
+      "size": 6714,
+      "size_human": "6.6 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/DualSubs.YouTube.lpx",
+      "source": "https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin"
     },
     "DubbingShow_remove_ads.lpx": {
       "sha256_12": "1ab7c72165b8",
@@ -1249,6 +1298,13 @@
       "size_human": "5.1 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/Tieba_remove_ads.lpx"
     },
+    "TikTok.lpx": {
+      "sha256_12": "e9485ecbd63e",
+      "size": 1550,
+      "size_human": "1.5 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/TikTok.lpx",
+      "source": "https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin"
+    },
     "TmallCampus_remove_ads.lpx": {
       "sha256_12": "eee4c3f5bb91",
       "size": 1645,
@@ -1615,6 +1671,55 @@
       "size_human": "1.7 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iReader_remove_ads.lpx"
     },
+    "iRingo.Maps.lpx": {
+      "sha256_12": "345552f14fa2",
+      "size": 5556,
+      "size_human": "5.4 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.Maps.lpx",
+      "source": "https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.plugin"
+    },
+    "iRingo.News.lpx": {
+      "sha256_12": "7678fe8ef5f9",
+      "size": 2391,
+      "size_human": "2.3 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.News.lpx",
+      "source": "https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin"
+    },
+    "iRingo.Search.lpx": {
+      "sha256_12": "9fe744d8d404",
+      "size": 2904,
+      "size_human": "2.8 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.Search.lpx",
+      "source": "https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Search.plugin"
+    },
+    "iRingo.Siri.lpx": {
+      "sha256_12": "cd7286bae8b2",
+      "size": 4185,
+      "size_human": "4.1 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.Siri.lpx",
+      "source": "https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin"
+    },
+    "iRingo.Spotlight.lpx": {
+      "sha256_12": "7464f44f6396",
+      "size": 3448,
+      "size_human": "3.4 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.Spotlight.lpx",
+      "source": "https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Spotlight.plugin"
+    },
+    "iRingo.TV.lpx": {
+      "sha256_12": "fbd04f3be3de",
+      "size": 2141,
+      "size_human": "2.1 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.TV.lpx",
+      "source": "https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin"
+    },
+    "iRingo.TestFlight.lpx": {
+      "sha256_12": "d227651085bc",
+      "size": 2272,
+      "size_human": "2.2 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/iRingo.TestFlight.lpx",
+      "source": "https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin"
+    },
     "iWallBiZhi_remove_ads.lpx": {
       "sha256_12": "6345a00cb31a",
       "size": 1351,
@@ -1645,11 +1750,25 @@
       "size_human": "1.0 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/mobileClouds_remove_ads.lpx"
     },
+    "qqnews.lpx": {
+      "sha256_12": "576fec1c8ea4",
+      "size": 615,
+      "size_human": "0.6 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/qqnews.lpx",
+      "source": "https://raw.githubusercontent.com/app2smile/rules/master/plugin/qqnews.plugin"
+    },
     "smzdm_remove_ads.lpx": {
       "sha256_12": "66fa44e8af0a",
       "size": 4483,
       "size_human": "4.4 KB",
       "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/smzdm_remove_ads.lpx"
+    },
+    "vgtime.lpx": {
+      "sha256_12": "2527c69924d5",
+      "size": 391,
+      "size_human": "0.4 KB",
+      "url": "https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/vgtime.lpx",
+      "source": "https://raw.githubusercontent.com/app2smile/rules/master/plugin/vgtime.plugin"
     }
   },
   "ua": "Loon/649 CFNetwork/1492.0.1 Darwin/23.3.0"
