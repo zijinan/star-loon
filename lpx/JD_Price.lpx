@@ -11,9 +11,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-request if ${url} ~= /^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$/i then script("https://kelee.one/Resource/JavaScript/JD/JD_Price.js") with tag="捕获令牌", timeout=10, requires_body=true
+request if ${url} ~= /^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/JD/JD_Price.js") with tag="捕获令牌", timeout=10, requires_body=true
 
-response if ${url} ~= /^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html/i then script("https://kelee.one/Resource/JavaScript/JD/JD_Price.js") with tag="京东比价", timeout=10, requires_body=true
+response if ${url} ~= /^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/JD/JD_Price.js") with tag="京东比价", timeout=10, requires_body=true
 
 [MitM]
 hostname=in.m.jd.com, apapia-sqk-weblogic.manmanbuy.com

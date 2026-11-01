@@ -20,7 +20,7 @@ response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecomm
 response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData/i then response.json.delete("obj.data")
 
 [Script]
-response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue/i then script("https://kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js") with tag="移除首页底部弹窗", requires_body=true
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js") with tag="移除首页底部弹窗", requires_body=true
 
 [MitM]
 hostname=iosapi.peiyinxiu.com

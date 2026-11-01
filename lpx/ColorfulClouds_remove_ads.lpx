@@ -20,7 +20,7 @@ request if ${url} ~= /^https:\/\/biz\.cyapi\.cn\/(p\/v1\/entries|p\/v1\/trial_ca
 request if ${url} ~= /^https:\/\/starplucker\.cyapi\.cn\/v3\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures)/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\?/i then script("https://kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js") with tag="彩云天气去广告", requires_body=true
+response if ${url} ~= /^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/ColorfulClouds/ColorfulClouds_remove_ads.js") with tag="彩云天气去广告", requires_body=true
 
 [MitM]
 hostname=biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com

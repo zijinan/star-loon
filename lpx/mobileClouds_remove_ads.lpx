@@ -11,9 +11,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-response if ${url} ~= /^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent/i then script("https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除开屏广告", requires_body=true
+response if ${url} ~= /^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除开屏广告", requires_body=true
 
-response if ${url} ~= /^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\//i then script("https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除应用内广告", requires_body=true
+response if ${url} ~= /^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\//i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除应用内广告", requires_body=true
 
 [MitM]
 hostname=jzts.cmpassport.com, ad.mcloud.139.com

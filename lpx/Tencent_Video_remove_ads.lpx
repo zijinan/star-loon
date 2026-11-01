@@ -32,7 +32,7 @@ URL-REGEX, "^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\
 request if ${url} ~= /^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind/i then reject_dict(200)
 
 [Script]
-request if ${url} ~= /^https?:\/\/vv\.video\.qq\.com\/getvinfo/i then script("https://kelee.one/Resource/JavaScript/CommonScript/replace-body.js", "&sppreviewtype=\\d(.*)&spsrt=\\d->&sppreviewtype=0$1&spsrt=0") with tag="移除广告", requires_body=true
+request if ${url} ~= /^https?:\/\/vv\.video\.qq\.com\/getvinfo/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/CommonScript/replace-body.js", "&sppreviewtype=\\d(.*)&spsrt=\\d->&sppreviewtype=0$1&spsrt=0") with tag="移除广告", requires_body=true
 
 [MitM]
 hostname=vv.video.qq.com

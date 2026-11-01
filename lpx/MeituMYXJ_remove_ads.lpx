@@ -21,7 +21,7 @@ response if ${url} ~= /^https:\/\/api\.meiyan\.com\/operation\/get_config\.json\
 response if ${url} ~= /^https:\/\/api\.meiyan\.com\/operation\/get_config\.json\?/i then response.json.replace(["response.function_pop.meiyan_style.is_pop", "response.onoff.vip_half_window_exit_remain_popup.open", "response.onoff.vip_home_exit_remain_popup"], [false, 0, 0])
 
 [Script]
-response if ${url} ~= /^https:\/\/api\.meiyan\.com\/operation\/home\.json\?/i then script("https://kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js") with tag="精简首页功能栏目并移除美颜推荐", requires_body=true
+response if ${url} ~= /^https:\/\/api\.meiyan\.com\/operation\/home\.json\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/MeituMYXJ/MeituMYXJ_remove_ads.js") with tag="精简首页功能栏目并移除美颜推荐", requires_body=true
 
 [MitM]
 hostname=api.meiyan.com

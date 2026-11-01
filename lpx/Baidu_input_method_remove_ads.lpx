@@ -21,7 +21,7 @@ request if ${url} ~= /^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?app
 request if ${url} ~= /^https:\/\/mime\.baidu\.com\/v5\/(fb\/st\?logtype|(notiv3|cellloc_noti|noti_cloudswitch_noti)\/info)/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata))/i then script("https://kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js") with tag="百度输入法去广告", requires_body=true
+response if ${url} ~= /^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata))/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Baidu_input_method/Baidu_input_method_remove_ads.js") with tag="百度输入法去广告", requires_body=true
 
 [MitM]
 hostname=imeres.baidu.com, mbd.baidu.com, mime.baidu.com

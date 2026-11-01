@@ -355,3 +355,18 @@ Loon 插件列表。一键导入与订阅地址均指向本仓库 `https://raw.g
 | [TikTok解锁](https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/TikTok.lpx) | `TikTok.lpx` | [导入](https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/TikTok.lpx) | 作者 可莉🅥 Key。来源 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin。[必选: 可插件内选择地区] [可选: 手动输入国家代码，需在选择里选 "手动输入" 手动输入地区代码的值才会生效] |
 | [腾讯新闻App去广告](https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/qqnews.lpx) | `qqnews.lpx` | [导入](https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/qqnews.lpx) | 作者 app2smile。来源 https://raw.githubusercontent.com/app2smile/rules/master/plugin/qqnews.plugin。开屏页广告有缓存,需要全新应用 |
 | [vgTimeApp去广告](https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/vgtime.lpx) | `vgtime.lpx` | [导入](https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/zijinan/star-loon/main/lpx/vgtime.lpx) | 作者 app2smile。来源 https://raw.githubusercontent.com/app2smile/rules/master/plugin/vgtime.plugin。去开屏广告(需全新应用). 若要去新闻列表广告需要搭配广告联盟模块 |
+
+## 运行时脚本镜像
+
+插件运行时加载的 `script` / `script-path` / `jq_file` / `mock_file`，以及 DREAME 插件下发的 zip，镜像在 `scripts/<主机>/<原始路径>`。下载成功的地址改为 `https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/...`。图标（`#!icon`、luestr/IconResource）仍指向原站。规则参数、正则和超时未改。
+
+原始地址、实际下载来源和 sha256 在 `scripts/manifest.json`。kelee.one 会被 Cloudflare 拦截，同名文件来自 `mihoyo-typ/KeleeOne`、`ifflagged/Romeo` 里的 `kelee.one_*` 快照、`zmjde/loon-plugins`；DREAME 的 zip 来自 `luestr/ProxyResource`。
+
+下面两个地址没有可用的公开副本，插件里仍是原 URL：
+
+- `https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js`
+- `https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/TikTok/TikTok_remove_watermark.js`
+
+刷新：`python3 tools/mirror_scripts.py`。没有定时任务。刷新失败时保留已有文件。
+
+`scripts/manifest.json` 的 `remote_code_dependencies` 列出仍会再请求外部脚本的镜像（IPA 工具箱、WPS 签到、Script-Hub 转换器、BoxJs、DualSubs YouTube）。

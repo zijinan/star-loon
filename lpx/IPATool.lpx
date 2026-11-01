@@ -11,9 +11,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-request if ${url} ~= /^https:\/\/apple-api\.com/i then script("https://kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js") with tag="App Store API", requires_body=true
+request if ${url} ~= /^https:\/\/apple-api\.com/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/IPATool/AppStoreAPI.js") with tag="App Store API", requires_body=true
 
-request if ${url} ~= /^https:\/\/xiaobai\.app/i then script("https://kelee.one/Resource/JavaScript/IPATool/Installer.js") with tag="安装器"
+request if ${url} ~= /^https:\/\/xiaobai\.app/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/IPATool/Installer.js") with tag="安装器"
 
 [MitM]
 hostname=apple-api.com, xiaobai.app

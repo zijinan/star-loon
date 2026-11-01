@@ -31,7 +31,7 @@ response if ${url} ~= /^https:\/\/api\.chelaile\.net\.cn\/goocity\/config\/notic
 response if ${url} ~= /^https:\/\/api\.chelaile\.net\.cn\/encourage\/activity\/control\?/i then response.body.mock("json", "**YGKJ{}YGKJ##", 200)
 
 [Script]
-response if ${url} ~= /^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?/i then script("https://kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js") with tag="清洗配置", requires_body=true
+response if ${url} ~= /^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/Chelaile/Chelaile_remove_ads.js") with tag="清洗配置", requires_body=true
 
 [MitM]
 hostname=api.chelaile.net.cn, web.chelaile.net.cn, cdn.web.chelaile.net.cn, image3.chelaile.net.cn

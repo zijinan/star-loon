@@ -16,9 +16,9 @@ request if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startu
 request if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v3/i then reject_dict(200)
 
 [Script]
-response if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v3/i then script("https://kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js") with tag="移除主页推广", requires_body=true
+response if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v3/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js") with tag="移除主页推广", requires_body=true
 
-response if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v3/i then script("https://kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js") with tag="移除我的页面推广", requires_body=true
+response if ${url} ~= /^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v3/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/PICC_Insurance/PICC_Insurance_remove_ads.js") with tag="移除我的页面推广", requires_body=true
 
 [MitM]
 hostname=zgrb.epicc.com.cn
