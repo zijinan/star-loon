@@ -1,5 +1,5 @@
 #!name=酷狗概念版去广告
-#!desc=移除广告服务模块、播放器广告，精简乐库及搜索页面。
+#!desc=移除广告服务模块、播放器广告，精简乐库及搜索页面；激励/插屏广告倒计时加速（5秒浏览→1秒）。
 #!openUrl=https://apps.apple.com/app/id1480205582
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag=去广告
@@ -8,7 +8,7 @@
 #!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KuGouYouth.png
-#!date=2026-10-02 13:57:49
+#!date=2026-11-01 06:00:00
 
 [Rewrite]
 request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/ads\.service\//i then reject_dict(200)
@@ -31,5 +31,8 @@ request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/youth\/v1\/channel\/tab_li
 
 request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/goddess\/v1\/content\/biz_list\?/i then reject_dict(200)
 
+[Script]
+http-response ^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getAd$ script-path=https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/zijinan/KuGouYouth/ad_speedup.js, requires-body=true, timeout=10, tag=酷狗概念版广告倒计时加速
+
 [MitM]
-hostname=gateway.kugou.com
+hostname=gateway.kugou.com, tmeadcomm.y.qq.com
