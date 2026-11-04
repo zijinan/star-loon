@@ -8,8 +8,8 @@
 #!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KuGouYouth.png
-#!date=2026-11-03 22:30:00
-#!version=1.1.0
+#!date=2026-11-03 23:00:00
+#!version=1.1.1
 
 [Rule]
 # 广点通(GDT/优量汇) 开屏拉取与素材
@@ -33,9 +33,13 @@ DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
 DOMAIN,mssdk.volces.com,REJECT
 # 第三方 DSP/监测
 DOMAIN,im-x.jd.com,REJECT
+DOMAIN,ccc-wt.jd.com,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
 
 [Rewrite]
+# 广点通开屏拉取（京东互动开屏等），规则之外再以 MitM 兜底
+request if ${url} ~= /^https:\/\/us\.l\.qq\.com\/exapp/i then reject_dict(200)
+
 request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getPbCompressAd/i then reject
 
 request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/mareportbatch\//i then reject_dict(200)
@@ -64,4 +68,4 @@ request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/goddess\/v1\/content\/biz_
 http-response ^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getAd$ script-path=https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/zijinan/KuGouYouth/ad_speedup.js, requires-body=true, timeout=10, tag=酷狗概念版广告倒计时加速
 
 [MitM]
-hostname=gateway.kugou.com, tmeadcomm.y.qq.com
+hostname=gateway.kugou.com, tmeadcomm.y.qq.com, us.l.qq.com
