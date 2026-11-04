@@ -1,5 +1,5 @@
 #!name=书旗小说去广告
-#!desc=移除书城横幅广告、听书广告、阅读广告、章末推荐、福利入口、悬浮窗、推荐搜索词，精简我的页面。
+#!desc=移除开屏广告、书城横幅广告、听书广告、阅读广告、章末推荐、福利入口、悬浮窗、推荐搜索词，精简我的页面。
 #!openUrl=https://apps.apple.com/app/id733689509
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag=去广告
@@ -8,10 +8,38 @@
 #!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ShuQiCenterReader.png
-#!date=2026-10-02 13:57:49
+#!date=2026-11-03 21:55:00
+#!version=1.1.0
 
 [Rule]
 DOMAIN, render-web.11222.cn, REJECT
+# 开屏广告 SDK（穿山甲/百度/广点通/快手/阿里妈妈/UBiX/旺脉/1RTB/神马/京东 等）
+DOMAIN, api-access.pangolin-sdk-toutiao.com, REJECT
+DOMAIN, api-access.pangolin-sdk-toutiao1.com, REJECT
+DOMAIN, log-api.pangolin-sdk-toutiao-b.com, REJECT
+DOMAIN, mobads.baidu.com, REJECT
+DOMAIN, mobads-pre-config.cdn.bcebos.com, REJECT
+DOMAIN, mobads-logs.baidu.com, REJECT
+DOMAIN, mi.gdt.qq.com, REJECT
+DOMAIN, win.gdt.qq.com, REJECT
+DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN, et.tanx.com, REJECT
+DOMAIN, opehs.tanx.com, REJECT
+DOMAIN, sdk-config.tanx.com, REJECT
+DOMAIN-SUFFIX, ubixioe.com, REJECT
+DOMAIN-SUFFIX, adwangmai.com, REJECT
+DOMAIN-SUFFIX, 66mobi.com, REJECT
+DOMAIN, sdk.1rtb.net, REJECT
+DOMAIN, ssp.iytcdn.com, REJECT
+DOMAIN, hc-ssp.sm.cn, REJECT
+DOMAIN, dsp-x.jd.com, REJECT
+DOMAIN, janapi.jd.com, REJECT
+DOMAIN-SUFFIX, dmrtb.com, REJECT
+DOMAIN, mpcfg.fancydsp.com, REJECT
+DOMAIN-SUFFIX, fancyapi.com, REJECT
+DOMAIN, api.yunxish.com, REJECT
+DOMAIN, cpc-service-square.yunxish.com, REJECT
+DOMAIN, cpc-service-square.iggrowth.cn, REJECT
 
 [Rewrite]
 request if ${url} ~= /^https:\/\/huichuan\.sm\.cn\/nativead/i then reject_dict(200)
@@ -21,6 +49,8 @@ request if ${url} ~= /^https:\/\/ocean\.shuqireader\.com\/api\/route\/ios\/readP
 request if ${url} ~= /^https:\/\/ocean\.shuqireader\.com\/api\/render\/load\/resource/i then reject(404)
 
 [Script]
+response if ${url} ~= /^https:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/v1\/api\/getAdInfo/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/zijinan/ShuQi/ShuQi_splash.js") with tag="移除开屏广告", requires_body=true
+
 response if ${url} ~= /^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$/i then script("https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/kelee.one/Resource/JavaScript/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js") with tag="移除书城横幅和阅读广告", requires_body=true
 
 [MitM]
