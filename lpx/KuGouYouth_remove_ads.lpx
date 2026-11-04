@@ -1,5 +1,5 @@
 #!name=酷狗概念版去广告
-#!desc=移除广告服务模块、播放器广告，精简乐库及搜索页面；激励/插屏广告倒计时加速（5秒浏览→1秒）。
+#!desc=移除开屏广告（酷狗自有/TME联盟/广点通/穿山甲等SDK）、广告服务模块、播放器广告，精简乐库及搜索页面；激励/插屏广告倒计时加速（5秒浏览→1秒）。
 #!openUrl=https://apps.apple.com/app/id1480205582
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag=去广告
@@ -8,9 +8,38 @@
 #!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KuGouYouth.png
-#!date=2026-11-01 06:00:00
+#!date=2026-11-03 22:30:00
+#!version=1.1.0
+
+[Rule]
+# 广点通(GDT/优量汇) 开屏拉取与素材
+DOMAIN,us.l.qq.com,REJECT
+DOMAIN,xs.gdt.qq.com,REJECT
+DOMAIN,tangram.e.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN,sdkreport.e.qq.com,REJECT
+DOMAIN,p.l.qq.com,REJECT
+DOMAIN,monitor.l.qq.com,REJECT
+# TME 广告联盟 SDK 配置/策略/上报
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,tmead.y.qq.com,REJECT
+# 酷狗广告服务
+DOMAIN,adservice.kugou.com,REJECT
+# 穿山甲(Pangle)/字节
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN,tnc3-alisc1.zijieapi.com,REJECT
+DOMAIN,mssdk.volces.com,REJECT
+# 第三方 DSP/监测
+DOMAIN,im-x.jd.com,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
 
 [Rewrite]
+request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getPbCompressAd/i then reject
+
+request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/mareportbatch\//i then reject_dict(200)
+
 request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/ads\.service\//i then reject_dict(200)
 
 request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/youth\/v1\/start_img\/last\?/i then reject_dict(200)
