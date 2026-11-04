@@ -9,7 +9,7 @@
 #!homepage=https://hub.kelee.one
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/KuGouYouth.png
 #!date=2026-11-03 23:00:00
-#!version=1.1.1
+#!version=1.1.2
 
 [Rule]
 # 广点通(GDT/优量汇) 开屏拉取与素材
@@ -22,6 +22,9 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN,sdkreport.e.qq.com,REJECT
 DOMAIN,p.l.qq.com,REJECT
 DOMAIN,monitor.l.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,v.gdt.qq.com,REJECT
+DOMAIN,rpt.gdt.qq.com,REJECT
 # TME 广告联盟 SDK 配置/策略/上报
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,tmead.y.qq.com,REJECT
@@ -40,7 +43,20 @@ DOMAIN-SUFFIX,miaozhen.com,REJECT
 # 广点通开屏拉取（京东互动开屏等），规则之外再以 MitM 兜底
 request if ${url} ~= /^https:\/\/us\.l\.qq\.com\/exapp/i then reject_dict(200)
 
-request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getPbCompressAd/i then reject
+# 本地规则优先级高于插件规则，若本地/全局规则先命中则插件 [Rule] 不生效，这里以 MitM 复写兜底
+request if ${url} ~= /^https:\/\/(xs|mi|v|rpt)\.gdt\.qq\.com\//i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/tangram\.e\.qq\.com\//i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/sdkreport\.e\.qq\.com\//i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/pgdt\.gtimg\.cn\//i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/im-x\.jd\.com\//i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/mc\.tencentmusic\.com\/sdk\/ad\/strategies/i then reject_dict(200)
+
+request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getPbCompressAd/i then reject_dict(200)
 
 request if ${url} ~= /^https:\/\/tmeadcomm\.y\.qq\.com\/mareportbatch\//i then reject_dict(200)
 
@@ -68,4 +84,4 @@ request if ${url} ~= /^https:\/\/gateway\.kugou\.com\/goddess\/v1\/content\/biz_
 http-response ^https:\/\/tmeadcomm\.y\.qq\.com\/maproxy\/getAd$ script-path=https://raw.githubusercontent.com/zijinan/star-loon/main/scripts/zijinan/KuGouYouth/ad_speedup.js, requires-body=true, timeout=10, tag=酷狗概念版广告倒计时加速
 
 [MitM]
-hostname=gateway.kugou.com, tmeadcomm.y.qq.com, us.l.qq.com
+hostname=gateway.kugou.com, tmeadcomm.y.qq.com, us.l.qq.com, *.gdt.qq.com, tangram.e.qq.com, sdkreport.e.qq.com, pgdt.gtimg.cn, im-x.jd.com, mc.tencentmusic.com
